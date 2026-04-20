@@ -1,0 +1,12 @@
+{
+  "dataset": "imdb",
+  "seed": 42,
+  "vectorizer": "tfidf",
+  "model": "linearsvm",
+  "max_features": 20000,
+  "ngram_max": 2,
+  "replace_number": false,
+  "drop_punct": false,
+  "metrics_test_macro_f1": 0.90999099909991,
+  "metrics_test_accuracy": 0.91
+}

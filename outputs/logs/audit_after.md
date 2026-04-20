@@ -1,0 +1,24 @@
+# Audit AFTER preprocessing
+
+## Schema / Missingness
+- **n_rows**: 50000
+- **missing_text_count**: 0
+- **empty_text_count**: 0
+- **missing_label_count**: 0
+- **label_counts**: {'negative': 25000, 'positive': 25000}
+
+## Distribution / Length
+- **imbalance_ratio_max_over_min**: 1.0
+- **len_chars_min**: 34
+- **len_chars_median**: 990
+- **len_chars_p95**: 3446
+- **len_chars_max**: 13936
+- **len_words_min**: 8
+- **len_words_median**: 207
+- **len_words_p95**: 705
+- **len_words_max**: 2802
+
+## Duplicates
+- **exact_dup_count**: 834
+- **exact_dup_ratio**: 0.01668
+
